@@ -1,0 +1,66 @@
+body{
+    margin: 0 auto;
+    padding: 0;
+}
+
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+
+/* Nav Bar Styling */
+
+header .container,
+nav ul {
+    display: flex;
+}
+
+header .container{
+    justify-content: space-between;
+    align-items: center;
+}
+
+.fa-brands{
+    font-size: 4vw;
+    color: lightcoral;
+}
+
+header .container h3,
+header .container nav{
+    font-size: 3vw;
+    letter-spacing: 1px;
+}
+
+nav ul {
+    list-style-type: none;
+    
+}
+
+ul a {
+    padding-left: 1em;
+    text-decoration: none;
+    color: black;
+}
+
+/* Main Styling */
+
+main .container{
+    display: flex;
+    flex-direction: column;
+}
+
+main .container h4{
+    font-size: 3vw;
+    font-weight: 100;
+    margin-top: 3rem;
+    margin-bottom: 0;
+}
+
+main .container h1{
+    margin-bottom: .75rem;
+}
+
+main .container p{
+    margin-top: 0;
+    margin-bottom: 2rem;
+}
