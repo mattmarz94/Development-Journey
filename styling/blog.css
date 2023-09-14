@@ -177,6 +177,13 @@ footer .copyright {
     color: black;
 }
 
+/* UTILITIES */
+
+.blog > *,
+.nav-logo > * {
+    pointer-events: none;
+}
+
 @media (min-width: 480px){
     
     .blog-wrapper {

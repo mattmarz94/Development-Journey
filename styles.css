@@ -225,6 +225,13 @@ footer .copyright {
     color: black;
 }
 
+/* UTILITIES */
+
+.blog > *,
+.nav-logo > * {
+    pointer-events: none;
+}
+
 .hidden {
     display: none;
 }

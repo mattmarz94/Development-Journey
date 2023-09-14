@@ -8,10 +8,20 @@ document.addEventListener("click", function(e){
         mobileMenu.classList.toggle("hidden")
         mobileMenuBtn.style.display = 'none';
         closeMenuBtn.style.display = 'block';
-        
-    } else if (e.target.classList.contains('fa-xmark')) {
+    } 
+    else if (e.target.classList.contains('fa-xmark')) {
         mobileMenu.classList.toggle('hidden');
         mobileMenuBtn.style.display = 'block';
         closeMenuBtn.style.display = 'none';
-    }
+    } else if (e.target.classList.contains("blog")){
+        if (window.location.protocol === "http:"){
+            window.location.href = "../web-journal/blog.html"
+        }
+    } else if (e.target.classList.contains("nav-logo")){
+        if (window.location.protocol === "http:")
+            window.location.href = "../index.html"
+        }
+    
+    
+    
 })
