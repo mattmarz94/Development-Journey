@@ -8,11 +8,13 @@
 
 body{
     font-family: 'Source Sans 3', sans-serif;
+    background-color: #FFFDEA;
 }
 
 /* Typography */
 
 header {
+    background-color: white;
     padding: 1.5vw 3vw;
     letter-spacing: .5px;    
 }
@@ -46,8 +48,7 @@ nav li a {
 }
 
 .profile-pic {
-    width: 150px;
-    border-radius: 50%;
+    width: 170px;
 }
 
 /* Nav Mobile Icon */
@@ -112,6 +113,7 @@ nav ul{
 }
 
 /* ABOUT ME */
+
 
 .about-me-wrapper {
     margin: 3em 1.25em 2em 1.25em;
@@ -244,6 +246,11 @@ footer .copyright {
 
 @media (min-width: 480px){
     
+    nav i.fa-bars,
+    nav i.fa-xmark {
+    display: none;
+}
+
     .blog-wrapper {
         margin: 0 3vw;
     }
