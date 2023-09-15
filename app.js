@@ -42,6 +42,4 @@ document.addEventListener("click", function(e){
                 viewMore.textContent = "View More"
         }
     }
-    
-
 })
