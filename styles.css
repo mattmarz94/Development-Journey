@@ -72,8 +72,9 @@ nav ul{
     flex-direction: column;
     position: absolute;
     right: 0;
-    top: 3em;
+    top: 3.23em;
     background-color: #505050;
+    opacity: .8;
 }
 
 .mobile-menu-link {
@@ -89,6 +90,7 @@ nav ul{
 .mobile-menu-link:hover {
     background-color: #F5F5F5;
     color: #505050;
+    opacity: .8;
 }
 
 /* Nav Bar */
