@@ -45,6 +45,11 @@ nav li a {
     color: black;
 }
 
+.profile-pic {
+    width: 150px;
+    border-radius: 50%;
+}
+
 /* Nav Mobile Icon */
 
 nav i.fa-bars,
