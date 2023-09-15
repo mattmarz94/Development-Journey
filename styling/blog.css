@@ -12,6 +12,10 @@ body{
 
 /* Typography */
 
+#nav-menu a{
+    color: black;
+}
+
 header {
     padding: 1.5vw 3vw;
     letter-spacing: .5px;    
@@ -20,6 +24,7 @@ header {
 .nav-logo{
     font-size: 1em;
     font-weight: bold;
+    cursor: pointer;
 }
 
 header .nav-logo{

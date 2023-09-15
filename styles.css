@@ -19,6 +19,7 @@ header {
 }
 
 .nav-logo{
+    cursor: pointer;
     font-size: 1em;
     font-weight: bold;
 }
@@ -47,6 +48,10 @@ header .fa-bars {
 }
 
 .articles .h2{
+    color: black;
+}
+
+#nav-menu a{
     color: black;
 }
 

@@ -13,6 +13,10 @@ body{
 
 /* Typography */
 
+#nav-menu a{
+    color: black;
+}
+
 header {
     background-color: white;
     padding: 1.5vw 3vw;
@@ -22,6 +26,7 @@ header {
 .nav-logo{
     font-size: 1em;
     font-weight: bold;
+    cursor: pointer;
 }
 
 header .nav-logo{
@@ -179,6 +184,7 @@ nav ul{
 .articles article:hover{
     transform: scale(1.05);
     box-shadow: 0 3px 4px rgba(0, 0, 0, 0.1);
+    background-color: #FFFCDC;
 }
 
 article h2,
